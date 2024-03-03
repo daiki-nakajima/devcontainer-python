@@ -1,6 +1,5 @@
 services:
   python:
-    image: devcontainer/python:1.0
     build: ./python
     container_name: python-dev
     stdin_open: true
